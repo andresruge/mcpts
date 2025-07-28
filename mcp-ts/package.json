@@ -1,0 +1,27 @@
+{
+  "name": "mcp-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "inspect": "npx -y @modelcontextprotocol/inspector npx tsx main.ts",
+    "client": "npx tsx client.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A TypeScript project for MCP",
+  "dependencies": {
+    "@ai-sdk/google": "^1.2.22",
+    "@inquirer/prompts": "^7.7.1",
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "ai": "^4.3.19",
+    "dotenv": "^17.2.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/inspector": "^0.16.2",
+    "@types/node": "^24.1.0"
+  }
+}

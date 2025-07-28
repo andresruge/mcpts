@@ -1,0 +1,14 @@
+{
+	"inputs": [],
+	"servers": {
+		"mcp-ts": {
+			"type": "stdio",
+			"command": "npx",
+			"args": [
+				"-y",
+				"tsx",
+				"C:\\Files\\Study\\agents\\mcpts\\mcp-ts\\main.ts"
+			]
+		}
+	}	
+}
